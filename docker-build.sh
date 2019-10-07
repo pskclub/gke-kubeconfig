@@ -7,4 +7,4 @@ if [ "$version" = "" ]; then
 fi
 
 docker build -t pskclub/gke-kubeconfig:$version .
-docker push pskclub/pam4-demo:$version
+docker push pskclub/gke-kubeconfig:$version
